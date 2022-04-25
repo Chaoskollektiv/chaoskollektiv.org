@@ -12,5 +12,4 @@ Inhalte/Seiten/Dinge, die wir für die Webseite brauchen.
 - Spendenseite
 - Impressum/Anschrift/Telefonnummer
 - Datenschutz
-
-
+- Design / Layout / Color scheme
