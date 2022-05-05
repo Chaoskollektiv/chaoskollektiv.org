@@ -1,0 +1,5 @@
+<head>
+    <title> {{ .Title }}</title>
+    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
