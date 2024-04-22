@@ -1,0 +1,32 @@
+@use 'colors'
+@use 'header'
+@use 'fonts'
+
+section
+  min-height: calc(100vh - header.$nav-height - 10px)
+  width: calc(100vw - 10vw - 2 * header.$border-width)
+  padding: 5vw
+  border: 5px solid black
+  border-top: 0px !important
+  background: colors.$neutral-color
+
+section h1
+  font-family: fonts.$questrial
+  font-size: 2em
+  padding: 10px
+  margin-top: 0
+  background: colors.$primary-color
+  border: 5px solid black
+  box-shadow: 10px 10px colors.$secondary-color
+  //border-radius: 1rem
+
+section .poster
+  max-height: 50vh
+  width: 100%
+  object-fit: cover
+
+section img
+  border: 5px solid black
+  box-shadow: 10px 10px colors.$secondary-color
+  //border-radius: 1rem
+  max-width: calc(100% - 10px)

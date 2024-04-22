@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ section.content | safe }}
+
+  <form action="mailto:contact@yourdomain.com"
+    method="POST"
+    enctype="multipart/form-data"
+    name="EmailForm">
+      <h2>Schreibe uns eine Nachricht</h2> 
+      <label for="name" >Name:</label><br>
+      <input 
+        id="name"
+        type="text" 
+        size="19" 
+        placeholder="Anna Arthurs" 
+        name="Contact-Name">
+      <br><br>
+      <label for="email" >Email:</label><br>
+      <input 
+        type="email"
+        id="email"
+        name="Contact-Email" 
+        placeholder="anna@arthurs.com">
+      <br><br> 
+      <label for="message" >Message:</label><br> 
+      <textarea 
+        name="Contact-Message"
+        id="message"
+        rows="6" 
+        cols="20">
+      </textarea><br>
+      <hr/>
+      <button type="submit" value="Submit">Send</button>
+  </form>
+{% endblock content %}
+
+

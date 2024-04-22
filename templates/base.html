@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css" >
+  <link rel="icon" href="/images/logos/Chaos-Kollektiv-Logo-03.svg" type="image/svg+xml">
+  <title>Chaos Kollektiv e.V.</title>
+  {% block rss %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+  {% endblock %}
+</head>
+
+<body>
+  {% include "header.html" %}
+  <section>
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+  {% include "footer.html" %}
+</body>
+
+</html>

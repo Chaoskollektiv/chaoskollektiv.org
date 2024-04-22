@@ -1,0 +1,167 @@
+@use 'colors'
+@use 'fonts'
+
+$nav-height: 2cm
+$border-width: 5px
+$font-size: 3em
+$menu-top: calc($nav-height + 2 * $border-width)
+$menu-width: calc(100% - 2 * $border-width)
+$menu-height: calc(100vh - 3 * $border-width - $nav-height)
+$menu-item-container-height: calc(100vh - 3 * $border-width - $nav-height)
+$menu-item-height: calc((100vh - 5 * $border-width - $nav-height) / 4)
+
+#nav
+  background-color: colors.$neutral-color
+  z-index: 1
+  top: 0
+  left: 0
+  right: 0
+  height: $nav-height
+  position: fixed
+  display: flex
+  //flex-flow: row wrap
+  align-items: center
+  justify-content: space-between
+  //flex-direction: column
+  overflow: hidden
+  text-align: center
+  border: $border-width solid black
+  border-bottom: calc(2 * $border-width) solid black
+  
+  .menu-toggle-label
+    align-items: flex-start
+    width: $nav-height
+    display: block
+    cursor: pointer
+    padding: 5px
+    color: black
+    font-size: $font-size
+    text-align: center
+    transition: background-color 0.3s ease
+    border-right: $border-width solid black
+
+  .menu-toggle-label:hover
+    background-color: colors.$primary-color
+    color: colors.$neutral-color
+
+  #menu-toggle:checked + .menu-toggle-label::after
+    content: "\2715" /* Unicode for close icon */
+
+  #menu-toggle:not(:checked) + .menu-toggle-label::after
+    content: "\2630" /* Unicode for hamburger icon */
+
+  #menu
+    display: none
+    position: fixed
+    top: $menu-top
+    left: 0
+    width: $menu-width
+    height: $menu-height
+    background-color: colors.$neutral-color
+    color: black
+    z-index: 1000
+    transition: opacity 0.7s ease
+    border: 5px solid black
+    //border-top: 0px !important
+
+  #menu-toggle:checked ~ #menu
+    display: block
+
+  ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+    height: $menu-item-container-height
+    width: 100vw !important
+    text-align: center
+    align-items: center
+
+  li
+    display: flex
+    border-bottom: 5px solid black
+    align-items: center
+    justify-content: center
+    text-align: center
+    height: $menu-item-height
+    width: 100vw !important
+
+  ul li a
+    width: 100vw !important
+    height: $menu-item-height
+    display: inline-block 
+    line-height: $menu-item-height
+    text-decoration: none 
+    text-align: center
+    text-decoration: none
+    color: black
+    font-size: 7vw
+    font-family: sans-serif
+    transition: 0.5s
+    white-space: nowrap
+    overflow: hidden
+
+  ul li a:hover
+    color: white
+    background-color: colors.$primary-color
+    transition: 0.5s
+
+  ul li a:focus
+    color: white
+    background-color: colors.$primary-color
+    transition: 0.5s
+
+  .socials
+    display: flex
+    height: $nav-height
+    border-left: $border-width solid black
+    font-family: fonts.$questrial
+
+    a
+      height: $nav-height
+      width: $nav-height
+      color: black
+      text-decoration: none
+
+    a:hover
+      background-color: colors.$primary-color
+
+    a:focus
+      background-color: colors.$primary-color
+
+    a:hover img
+      filter: invert(1)
+
+    a img
+      height: calc($nav-height / 2)
+      padding: calc($nav-height / 4)
+
+#menu-toggle
+  position: absolute
+  opacity: 0
+  width: 0
+  height: 0
+  overflow: hidden
+
+.title-wrapper
+  text-align: center
+  align-items: center
+  display: block
+  height: $nav-height
+  width: 100%
+  
+
+@media screen and (max-width: 767px)
+  .title-wrapper
+    background: url(/images/logos/Chaos-Kollektiv-Logo-03.svg)
+    background-size: contain !important
+    background-repeat: no-repeat !important
+    background-position: center !important
+    max-width: 2cm
+
+@media screen and (min-width: 768px)     
+  .title-wrapper      
+    background-image: url(/images/logos/Chaos-Kollektiv-Logo-05.svg)
+    max-width: 15cm
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat

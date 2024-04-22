@@ -1,0 +1,29 @@
+@use 'colors'
+@use 'header'
+@use 'fonts'
+@use 'footer'
+@use 'form'
+@use 'cards'
+@use 'section'
+
+html
+  width: 100vw
+
+body
+  margin: 0
+  padding-top: calc(header.$nav-height + 10px)
+  width: 100vw
+  font-family: fonts.$merriweather
+  font-size: 20px
+
+body::-webkit-scrollbar
+  display: none
+
+a
+  color: colors.$secondary-color
+
+a:hover
+  color: colors.$primary-color
+
+a:visited
+  color: colors.$accent-color

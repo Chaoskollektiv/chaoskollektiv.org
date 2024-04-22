@@ -1,0 +1,73 @@
+@use 'colors'
+@use 'fonts'
+
+.cards-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 6vw
+  padding-top: 6vh
+  padding-bottom: 6vh
+
+.card
+  flex-basis: 20%
+  border: 5px solid black
+  min-width: 8cm
+  box-shadow: 10px 10px colors.$secondary-color
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+
+  h2
+    font-family: fonts.$questrial
+
+  img
+    border: 0
+    border-bottom: 5px solid black
+    border-top: 5px solid black
+    box-shadow: 0 0 
+    border-radius: 0
+    min-width: 5cm
+    height: 5cm
+    width: 100%
+    max-width: 100%
+    object-fit: cover
+    max-height: 7cm
+    margin-top: 0
+    margin-bottom: 0
+
+  p
+    padding: 0 10px 0 10px
+    text-align: left
+    text-justify: inter-word
+    overflow-wrap: break-word
+    word-wrap: break-word
+    hyphens: auto
+    margin-top: 0
+    margin-bottom: auto
+
+  span
+    font-family: fonts.$questrial
+    margin-top: 0
+    margin-bottom: 0
+    height: 1cm
+    line-height: 1cm
+
+  a
+    display: block
+    padding: 10px 10px 10px 10px
+    text-decoration: none
+    font-family: fonts.$questrial
+    border-top: 5px solid black
+    margin: 0 auto 0 0
+    height: 1cm
+    width: calc(100% - 4 * 5px)
+    text-align: center
+    line-height: 1cm
+    font-weight: bold
+
+  a:hover
+    background: colors.$accent-color
+    color: colors.$secondary-color
+

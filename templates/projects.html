@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+  {{ section.title }}
+</h1>
+<div class="cards-container">
+
+  {% for page in section.pages %}
+  <div class="card">
+    <h2>{{ page.title | safe }}</h2>
+    {% if page.extra.image %}
+      <img alt="{{ page.title | safe}}" src="{{ page.extra.image | safe }}" >
+    {% endif %}
+    <span>{{ page.date | safe }}</span>
+    <p>{{ page.description | safe}}</p>
+    <a 
+      href="{{ page.permalink | safe }}" 
+      aria-label="Click here to read more about this" 
+    >Read More</a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}

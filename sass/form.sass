@@ -1,0 +1,71 @@
+@use 'colors'
+@use 'fonts'
+
+form
+  border: 5px solid black
+  background: colors.$primary-color
+  box-shadow: 10px 10px colors.$secondary-color
+  padding: 5%
+  font-family: fonts.$questrial
+  font-size: 2em
+  font-weight: bold
+  //border-radius: 1rem
+
+  h2
+    margin-top: 0
+    border-bottom: 5px solid black
+    font-size: 1em
+
+  input
+    border: 0px
+    border-bottom: 5px dotted black
+    background-color: transparent
+    font-size: 0.75em
+    height: 1em
+    color: colors.$neutral-color
+    width: 100%
+
+  input:hover
+    border-color: colors.$accent-color
+
+  input:focus
+    border-color: colors.$accent-color
+
+  ::placeholder
+    color: black
+
+  textarea
+    border: 5px solid black
+    // background-color: colors.$neutral-color
+    // border-radius: 1rem
+    background-color: transparent
+    width: 100%
+    margin-top: 10px
+    font-size: 0.5em
+    color: colors.$neutral-color
+
+  textarea:hover
+    border-color: colors.$accent-color
+
+  textarea:focus
+    border-color: colors.$accent-color
+
+  hr
+    border: 2.5px solid black
+
+  button
+    border: 5px solid black
+    font-size: 0.5em
+    background-color: colors.$neutral-color
+    border-radius: 1rem
+    padding: 5px
+    font-weight: bold
+    width: 5cm
+
+  button:hover
+    background-color: colors.$secondary-color
+    color: colors.$accent-color
+
+  button:focus
+    background-color: colors.$accent-color
+    color: colors.$secondary-color
