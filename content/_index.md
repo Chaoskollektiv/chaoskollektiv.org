@@ -1,39 +1,35 @@
 +++
-title = "Start"
+title = "Chaoskollektiv e.V."
 date = 2024-03-19
 template = "index.html"
 +++
 
 # Das Kollektiv
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Sit amet consectetur adipiscing elit duis tristique. 
-Consequat semper viverra nam libero justo. At tellus at urna 
-condimentum mattis pellentesque id. Massa tincidunt nunc pulvinar 
-sapien et ligula ullamcorper malesuada. Lectus quam id leo in vitae. 
-Laoreet non curabitur gravida arcu ac tortor dignissim. Dui ut ornare 
-lectus sit amet est. Orci eu lobortis elementum nibh tellus molestie.
-Auctor elit sed vulputate mi sit amet mauris. Massa id neque aliquam 
-vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla. 
-Sit amet consectetur adipiscing elit. Magna etiam tempor orci eu lobortis 
-elementum nibh tellus molestie. 
-Mi quis hendrerit dolor magna eget est lorem. 
-Egestas tellus rutrum tellus pellentesque. 
-Faucibus ornare suspendisse sed nisi lacus sed. 
-A condimentum vitae sapien pellentesque habitant morbi tristique. 
-Pharetra massa massa ultricies mi quis hendrerit dolor magna. 
-Suscipit adipiscing bibendum est ultricies integer quis auctor. 
-Turpis nunc eget lorem dolor sed viverra ipsum. 
-Consectetur libero id faucibus nisl. Sit amet est placerat in. 
-Diam ut venenatis tellus in metus vulputate. Arcu vitae elementum 
-curabitur vitae nunc sed velit dignissim sodales. Commodo viverra 
-maecenas accumsan lacus vel facilisis. Suscipit adipiscing bibendum 
-est ultricies integer quis auctor elit sed. Leo a diam sollicitudin 
-tempor id. Interdum varius sit amet mattis vulputate enim nulla. 
-Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. 
-Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. 
-Turpis egestas sed tempus urna et pharetra. Et malesuada fames ac turpis. 
-Faucibus turpis in eu mi bibendum neque egestas congue.
+## Was ist der Chaoskollektiv e.V. ? 
+Der Verein unterstützt die gemeinnützige, kulturelle oder politische arbeit seiner mitglieder, die zur Förderung der demokratie beitragen!
 
-Click [here](@/projects/_index.md) to see our projects.
+## Sicherheit und Ordnung? So ein Quatsch!
+Eine Gesellschaft voller struktureller Diskriminierung und extremer Ungleichheit?
+Das soll Ordnung sein? Wir nennen das Chaos!  
+
+## Plattform für dein Projekt! 
+
+Als eingetragener Verein können wir Förderanträge bei stiftungen stellen und zusammen gelder für eure Projekte organisieren!
+Ihr verpflichtet euch euer gewonnenes Wissen an eine nachfolgende generation von Projektteams weiterzugeben. unsere Vision ist es, dass neue Projektgruppen von dem Wissen vorheriger Gruppen profitieren können.  
+Klicke [hier](@/projects/_index.md) um in unseren bisherigen Projekte zu stöbern oder [hier](/about) um mehr über uns zu erfahren.
+
+## Solidarisches Netzwerk
+Nutze unsere Socialmedia-Kanäle und Webseite, um Werbung für dein Projekt zu machen, Teilnehmende und Mitstreitende zu finden und dich zu zeigen, um von anderen gefunden zu werden!
+
+## Werde jetzt Mitglied! 
+
+Damit das Projekt weiter bestand hat, brauchen wir dringend Menschen, die lust haben sich zu engagieren oder das Projekt durch eine Mitgliedschaft zu unterstützen. die Mitgliedschaft ist dabei an keine kosten gebunden, jedoch sichert vor allem die finanzielle Unterstützung den bestand des Projekts. Als Mitglied hast du Zugang zu allen Strukturen und den Möglichkeiten des Vereins. 
+
+## Komm ins Team!
+
+Wir suchen aktiv mitstreiter*innen, die lust haben teil des Verein zu werden und andere menschen bei der Finanzie- rung ihrer demokratischen, politischen und kulturellen arbeit zu beraten.
+
+## Du bist eIne Fachkraft und hast coole Fähigkeiten?
+
+Werde Teil des Supporter*innenteam und unterstütze unsere Mitglieder bei ihren Projekten, natürlich bezahlt auf Honorarbasis.
