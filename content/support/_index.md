@@ -5,7 +5,18 @@ template = "support.html"
 +++
 
 # Mitmachen und Unterstützen
-Auch wenn du keine Kapazitäten zum Mitmachen hast, kannst du das Chaoskollektiv durch eine Mitgliedschaft oder Fördermitgliedschaft unterstützen oder unsere Beiträge auf Instagram oder Telegram teilen. Oder sprich deine Freund*innen auf die Möglichkeiten unseres Projekts an und motiviere Menschen, ein Teil davon zu werden. Je mehr Menschen das Projekt unterstützen, desto besser und nachhaltiger wird die Arbeit verteilt und desto mehr Projekte können wir unterstützen!
+
+## Werde jetzt Mitglied! 
+
+Damit das Projekt weiter bestand hat, brauchen wir dringend Menschen, die lust haben sich zu engagieren oder das Projekt durch eine Mitgliedschaft zu unterstützen. die Mitgliedschaft ist dabei an keine kosten gebunden, jedoch sichert vor allem die finanzielle Unterstützung den bestand des Projekts. Als Mitglied hast du Zugang zu allen Strukturen und den Möglichkeiten des Vereins. 
+
+## Komm ins Team!
+
+Wir suchen aktiv Mitstreiter*innen, die Lust haben Teil des Vereins zu werden und andere Menschen bei der Finanzierung ihrer demokratischen, politischen und kulturellen Arbeit zu beraten.
+
+## Du bist eine Fachkraft und hast coole Fähigkeiten?
+
+Werde Teil des Supporter*innenteam und unterstütze unsere Mitglieder bei ihren Projekten, natürlich bezahlt auf Honorarbasis.
 
 ## Der Vorstand des Chaoskollektiv e.V. <!-- (+Fotos) -->
 

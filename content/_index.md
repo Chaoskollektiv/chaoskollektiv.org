@@ -28,8 +28,8 @@ Damit das Projekt weiter bestand hat, brauchen wir dringend Menschen, die lust h
 
 ## Komm ins Team!
 
-Wir suchen aktiv mitstreiter*innen, die lust haben teil des Verein zu werden und andere menschen bei der Finanzie- rung ihrer demokratischen, politischen und kulturellen arbeit zu beraten.
+Wir suchen aktiv Mitstreiter*innen, die lust haben Teil des Verein zu werden und andere menschen bei der Finanzie- rung ihrer demokratischen, politischen und kulturellen arbeit zu beraten.
 
-## Du bist eIne Fachkraft und hast coole Fähigkeiten?
+## Du bist eine Fachkraft und hast coole Fähigkeiten?
 
 Werde Teil des Supporter*innenteam und unterstütze unsere Mitglieder bei ihren Projekten, natürlich bezahlt auf Honorarbasis.
