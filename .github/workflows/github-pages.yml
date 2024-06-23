@@ -13,5 +13,4 @@ jobs:
         env:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_HOSTNAME: chaoskollektiv.org
           BUID_DIR: public
