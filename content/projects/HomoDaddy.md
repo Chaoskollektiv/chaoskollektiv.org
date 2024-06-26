@@ -1,5 +1,5 @@
 +++
-title = "Homo Daddy"
+title = "Homodaddy"
 date = 2024-06-23
 description = "Eine Stückentwicklung von Cindy + Cate"
 [extra]
